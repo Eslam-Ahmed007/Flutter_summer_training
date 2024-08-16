@@ -1,0 +1,28 @@
+^D:\APP DEVELOPMENT\ESLAMAHMED2022170058\BUILD\WINDOWS\X64\CMAKEFILES\4D070982657DC776902646C5DC9A50CE\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter "PROJECT_DIR=D:\App development\eslamahmed2022170058" FLUTTER_ROOT=C:\src\flutter "FLUTTER_EPHEMERAL_DIR=D:\App development\eslamahmed2022170058\windows\flutter\ephemeral" "PROJECT_DIR=D:\App development\eslamahmed2022170058" "FLUTTER_TARGET=D:\App development\eslamahmed2022170058\lib\main.dart" DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=D:\App development\eslamahmed2022170058\.dart_tool\package_config.json" C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\APP DEVELOPMENT\ESLAMAHMED2022170058\BUILD\WINDOWS\X64\CMAKEFILES\B8917DA8A269E2DEE15AFC69A5B82F9E\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\APP DEVELOPMENT\ESLAMAHMED2022170058\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/App development/eslamahmed2022170058/windows" "-BD:/App development/eslamahmed2022170058/build/windows/x64" --check-stamp-file "D:/App development/eslamahmed2022170058/build/windows/x64/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
